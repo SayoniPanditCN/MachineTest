@@ -30,7 +30,9 @@ console.log("Answer 2. ",Highest);
 // 3. const input2 = [10, 5, 20, 10, 6, 5, 8, 5, 20];
 // Output: [10, 5, 20, 6, 8];
 
-
+const input2 = [10, 5, 20, 10, 6, 5, 8, 5, 20];
+const UniqueArr = [...new Set(input2)]
+console.log("Answer 3. ", UniqueArr);
 
 
 
